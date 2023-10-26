@@ -742,14 +742,22 @@ img {
     letter-spacing: 0.02em;
 }
 
-.footer-subscribe-title {}
+.footer-subscribe-title {
+    margin-bottom: 16px;
+}
 
 .footer-container-form {
     display: flex;
 
 }
 
-.foter-label {}
+.footer-subscribe-form {
+    display: flex;
+}
+
+.foter-label {
+    gap 24px;
+}
 
 .footer-field {}
 
