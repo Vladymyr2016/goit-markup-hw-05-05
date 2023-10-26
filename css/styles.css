@@ -850,36 +850,38 @@ img {
     transform: translateY(-50%);
 }
 
-.form-box {}
+.form-box {
+    margin-bottom: 16px;
+}
 
-.form-label {}
+.form-label {
+    display: block;
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
 
-.form-comment {}
+.form-comment {
+    width: 360px;
+    height: 120px;
+}
 
 .form-agreement {
-    .form-box {}
-
-    .form-label {}
-
-    .form-comment {}
-
-    .form-agreement {
-        color: #8E8F99;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-        width: 338px;
-    }
-
-    .visually-hidden {}
-
-    .custom-checkbox {}
-
-    .custom-checkbox-icon {}
-
-    .form-agreement-link {}
+    margin-bottom: 16px;
 }
+
+
+.form-agreement {
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    width: 338px;
+}
+
+
 
 .visually-hidden {}
 
@@ -901,10 +903,10 @@ img {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-flex;
     padding: 16px 32px;
-    align-items: flex-start;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 
