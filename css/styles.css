@@ -759,6 +759,7 @@ img {
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px;
 }
 
 .backdrop.is-hidden .modal {
@@ -810,5 +811,101 @@ img {
     background-color: var(--ocean);
     border: none;
 }
+
+.modal-text-action {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.modal-form {}
+
+.form-box {
+    margin-bottom: 8px;
+}
+
+.form-label {
+    margin-bottom: 4px;
+}
+
+.form-field {
+    position: relative;
+}
+
+.form-input {
+    width: 360px;
+    height: 58px;
+}
+
+.form-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+}
+
+.form-box {}
+
+.form-label {}
+
+.form-comment {}
+
+.form-agreement {
+    .form-box {}
+
+    .form-label {}
+
+    .form-comment {}
+
+    .form-agreement {
+        color: #8E8F99;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        width: 338px;
+    }
+
+    .visually-hidden {}
+
+    .custom-checkbox {}
+
+    .custom-checkbox-icon {}
+
+    .form-agreement-link {}
+}
+
+.visually-hidden {}
+
+.custom-checkbox {}
+
+.custom-checkbox-icon {}
+
+.form-agreement-link {
+    color: var(--IRIS);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+}
+
+.modal-button-form {
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*==================*/
