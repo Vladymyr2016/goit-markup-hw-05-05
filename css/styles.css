@@ -733,6 +733,10 @@ img {
     background-color: #31d0aa;
 }
 
+.footer-Subscribe {}
+
+.footer-Subscribe-title {}
+
 /*========modal=========*/
 /*=======window=========*/
 .backdrop {
@@ -824,7 +828,9 @@ img {
     margin-bottom: 16px;
 }
 
-.modal-form {}
+.modal-form {
+    margin-bottom: 8px;
+}
 
 .form-box {
     margin-bottom: 8px;
