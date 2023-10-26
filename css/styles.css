@@ -733,7 +733,14 @@ img {
     background-color: #31d0aa;
 }
 
-.footer-Subscribe {}
+.footer-Subscribe {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .footer-Subscribe-title {}
 
