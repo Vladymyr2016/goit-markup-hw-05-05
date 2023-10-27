@@ -931,14 +931,15 @@ img {
 }
 
 .form-input {
-    border: 1px solid rgba(46, 47, 66, 0.4);
     outline: transparent;
     border-color: #4D5AE5;
     border-radius: 4px;
     background-color: transparent;
     padding-left: 38px;
     width: 360px;
-    height: 58px;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus .form-icon {
