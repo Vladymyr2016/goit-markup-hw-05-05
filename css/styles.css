@@ -1010,12 +1010,14 @@ img {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    fill: transparent;
-    margin-right: 8px;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+
 }
 
-.custom-checkbox-icon {}
+.custom-checkbox-icon {
+    fill: transparent;
+}
 
 .form-agreement-link {
     color: var(--IRIS);
