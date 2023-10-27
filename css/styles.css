@@ -655,6 +655,10 @@ img {
 
 }
 
+.footer-social {
+    margin-right: 80px;
+}
+
 .footer-logo-main {
     margin-right: 120px;
 }
@@ -802,7 +806,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    max-width: 165px;
+    min-width: 165px;
     height: 40px;
     cursor: pointer;
     border: none;
@@ -814,7 +818,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    color: #FFF;
+    fill: #FFF;
     margin-left: 16px;
 
 }
