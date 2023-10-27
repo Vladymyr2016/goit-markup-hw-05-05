@@ -778,8 +778,13 @@ img {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    padding-left: 16px;
+}
+
+.footer-input::placeholder {
+    color: #fff;
 }
 
 .footer-button-subscribe {
@@ -797,6 +802,10 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    max-width: 165px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
 }
 
 .footer-icon-subscribe {
@@ -806,8 +815,8 @@ img {
     align-items: center;
     gap: 16px;
     color: #FFF;
-    max-width: 165px;
-    height: 40px;
+    margin-left: 16px;
+
 }
 
 /*========modal=========*/
