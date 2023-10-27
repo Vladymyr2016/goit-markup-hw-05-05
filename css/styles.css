@@ -931,8 +931,15 @@ img {
 }
 
 .form-input {
+    border: 1px solid rgba(46, 47, 66, 0.4);
     width: 360px;
-    height: 58px;
+    height: 40px;
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-icon {
