@@ -1010,6 +1010,7 @@ img {
     line-height: 16px;
     letter-spacing: 0.04em;
     text-decoration-line: underline;
+    display: block;
 }
 
 .modal-chekbox {
