@@ -1015,9 +1015,7 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.custom-checkbox-icon {
-    fill: transparent;
-}
+.custom-checkbox-icon {}
 
 .form-agreement-link {
     color: var(--IRIS);
