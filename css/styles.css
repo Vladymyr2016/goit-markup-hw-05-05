@@ -754,7 +754,7 @@ img {
 
 .footer-container-form {
     display: flex;
-    gap 24px;
+    gap: 24px;
 
 }
 
