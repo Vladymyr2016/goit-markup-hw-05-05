@@ -1012,6 +1012,10 @@ img {
     text-decoration-line: underline;
 }
 
+.modal-chekbox {
+    margin-bottom: 24px;
+}
+
 .modal-button-form {
     border-radius: 4px;
     background: #4D5AE5;
