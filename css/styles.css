@@ -814,6 +814,7 @@ img {
 
 .footer-icon-subscribe {
     fill: #FFF;
+    margin-left: 16px;
 }
 
 /*========modal=========*/
@@ -1019,10 +1020,6 @@ img {
     letter-spacing: 0.04em;
     text-decoration-line: underline;
     color: #4d5ae5;
-}
-
-.custom-checkbox-icon {
-    margin-left: 16px;
 }
 
 .modal-chekbox {
