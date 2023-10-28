@@ -50,8 +50,6 @@ img {
 /*====header====*/
 
 .header {
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
     background-color: #FFF;
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 2px 1px rgba(46, 47, 66, 0.08),
@@ -128,6 +126,7 @@ img {
 
 .link {
     text-decoration: none;
+    display: block;
 }
 
 .header-list-link.current {
@@ -814,7 +813,6 @@ img {
 
 .footer-icon-subscribe {
     fill: #FFF;
-    margin-left: 16px;
 }
 
 /*========modal=========*/
